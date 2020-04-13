@@ -1,5 +1,6 @@
 <html>
 <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script>
 var numbers = [];
 var numCount=1;
@@ -40,10 +41,7 @@ function shuffle(o) {
 
 </script>
 <style>
-.btn{
-  
-  width:80%;
-}
+
 td{
   font-weight:bold;
 }
@@ -51,10 +49,10 @@ td{
 
 </head>
 <body>
-<button class='btn' onclick="GetNextNumber()" img="girlfaces.png"> Get Next Number </button>
+<button  type="button" class="btn-lg" onclick="GetNextNumber()" img="girlfaces.png"> Get Next Number </button>
 <table id='myTable'>
   
 </table>
-<button class='btn' onclick=resetNumbers()>reset</button>
+<button  onclick=resetNumbers()>reset</button>
 </body>
 </html>
